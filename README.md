@@ -12,13 +12,13 @@ Al utilizar ramas, los equipos de desarrollo pueden mantener un flujo de trabajo
 
 ## Tipos de Ramas 🌱
 
-| Tipo  |  Descripción               |
-| :-------- | :------------------------- |
-| ![Master](https://i.imgur.com/c990QaN.png) | **Protected**. La rama principal del repositorio, donde se encuentra el código de producción estable. Todos los cambios en la rama master deben estar completamente probados y listos para ser desplegados. Es la base para crear nuevas ramas y la última versión oficial del proyecto. |
-| ![Hotfix](https://i.imgur.com/Kup7h1I.png) | Creada a partir de la master para corregir rápidamente errores críticos en producción. Las hotfixes permiten solucionar problemas urgentes sin interrumpir el desarrollo en curso. Una vez que la corrección está lista, se fusiona de nuevo en master y, usualmente tambien en la rama de desarrollo para mantener la consistencia. |
-| ![Development](https://i.imgur.com/c3jCeJQ.png) | Una rama donde se integran las características y mejoras que se están desarrollando. Es el entorno principal para la integración de cambios y pruebas antes de ser considerados estables y fusionados en la master. Funciona como un área de trabajo donde se realiza la mayor parte del desarrollo colaborativo. |
-| ![Release](https://i.imgur.com/dcNmYqj.png) | Esta rama se crea a partir de la rama DEV-QAS cuando el proyecto está listo para una nueva versión **(tag)**. En esta rama, se realizan los últimos ajustes, pruebas y correcciones menores antes de lanzar la versión final. Una vez aprobada, se fusiona en master y se etiqueta con el número de versión. |
-| ![Feature](https://i.imgur.com/VJPgCHL.png) | Ramas temporales creadas a partir de development para trabajar en nuevas funcionalidades o mejoras específicas. Cada feature branch se centra en una tarea particular y permite a los desarrolladores trabajar de manera aislada sin afectar el código base. Una vez completada y probada, la feature branch se fusiona de nuevo en development. |
+| Tipo |  Descripción<img width=700/>  |
+| :------------ | :------------------------- |
+| <img src="https://i.imgur.com/c990QaN.png" width="129" height="40" alt="Master"> | **Protected**. La rama principal del repositorio, donde se encuentra el código de producción estable. Todos los cambios en la rama master deben estar completamente probados y listos para ser desplegados. Es la base para crear nuevas ramas y la última versión oficial del proyecto. |
+| <img src="https://i.imgur.com/Kup7h1I.png" width="129" height="40" alt="Hotfix"> | Creada a partir de la master para corregir rápidamente errores críticos en producción. Las hotfixes permiten solucionar problemas urgentes sin interrumpir el desarrollo en curso. Una vez que la corrección está lista, se fusiona de nuevo en master y, usualmente tambien en la rama de desarrollo para mantener la consistencia. |
+| <img src="https://i.imgur.com/c3jCeJQ.png" width="129" height="40" alt="Development"> | Una rama donde se integran las características y mejoras que se están desarrollando. Es el entorno principal para la integración de cambios y pruebas antes de ser considerados estables y fusionados en la master. Funciona como un área de trabajo donde se realiza la mayor parte del desarrollo colaborativo. |
+| <img src="https://i.imgur.com/dcNmYqj.png" width="129" height="40" alt="Release"> | Esta rama se crea a partir de la rama DEV-QAS cuando el proyecto está listo para una nueva versión **(tag)**. En esta rama, se realizan los últimos ajustes, pruebas y correcciones menores antes de lanzar la versión final. Una vez aprobada, se fusiona en master y se etiqueta con el número de versión. |
+| <img src="https://i.imgur.com/VJPgCHL.png" width="129" height="40" alt="Feature"> <img width=300/> | Ramas temporales creadas a partir de development para trabajar en nuevas funcionalidades o mejoras específicas. Cada feature branch se centra en una tarea particular y permite a los desarrolladores trabajar de manera aislada sin afectar el código base. Una vez completada y probada, la feature branch se fusiona de nuevo en development. |
 
 ## Comandos Imporantes a conocer 💻
 
