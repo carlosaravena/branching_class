@@ -112,6 +112,6 @@ Ejemplo de una tarjeta Trello integrada con Github:
 - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Trello](https://trello.com/)
 
-# Authors
+# Author
 
 [@carlosaravena](https://github.com/carlosaravena)
