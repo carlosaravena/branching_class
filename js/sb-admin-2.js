@@ -1,7 +1,6 @@
 (function($) {
   "use strict"; // Start of use strict
 
-  // ESTO ES OTRO CAMBIO
 
   // Toggle the side navigation
   $("#sidebarToggle, #sidebarToggleTop").on('click', function(e) {
