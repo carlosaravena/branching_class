@@ -1,7 +1,7 @@
 (function($) {
   "use strict"; // Start of use strict
  
-// COMENTARIO
+// COMENTARIO NUEVO
 
   // Toggle the side navigation
   $("#sidebarToggle, #sidebarToggleTop").on('click', function(e) {
